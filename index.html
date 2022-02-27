@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+  
+  <!-- jQuery library -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  
+  <!-- Popper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  
+  <!-- Latest compiled JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="css/index.css">
+<script src="index.js"></script>
+</head>
+<body>
+<header>
+<h1>▓▒­░⡷⠂𝚃𝚊𝚜𝚝𝚢 𝙵𝚘𝚘𝚍⠐⢾░▒▓</h1>
+<div id="menu-bar" class="fas fa-bars"></div>
+<nav class="navbar navbar-expand-sm bg-warning"> 
+<div class="container">
+<br> 
+<ul class="nav" role="tablist"> 
+<a href="#home">Home</a></li>
+<a href="#speciality">Speciality</a></li>
+<a href="#popular">Popular</a></li>
+<a href="#gallery">Gallery</a></li>
+<a href="#review">Review</a></li>
+<a href="#order">Order</a></li>
+<form class="d-flex"> 
+<input class="px-2 search" type="search" placeholder="Search" aria-label="Search"> 
+<button class="btn0" type="submit">Search</button> 
+</form> 
+</ul>
+</div>
+</nav>
+<section class="home" id="home">
+<div class="content">
+<h1>Made with Love</h1>
+<p>Tenderly created. Caringly crafted. Attentively produced. Adoringly Arranged.</p>
+<a href="#" class="btn">Order Now</a>
+</div>
+<div class="image">
+<img src="./images/home-img.png" target="_blank" alt="">
+</div>
+
+<div class="container"> <!-- carousel --> 
+  <div class="carousel slide" id="demo" data-ride="carousel"> <!-- indicators --> 
+   <ul class="carousel-indicators"> 
+    <li data-target="#demo" data-slide-to="0" class="active"></li> 
+    <li data-target="#demo" data-slide-to="1"></li> 
+    <li data-target="#demo" data-slide-to="2"></li> 
+    <li data-target="#demo" data-slide-to="3"></li>
+    <li data-target="#demo" data-slide-to="4"></li>
+    <li data-target="#demo" data-slide-to="5"></li>
+   </ul> <!-- inner --> 
+   <div class="carousel-inner"> 
+    <div class="carousel-item active"> 
+     <img src="./images/p-1.jpg" alt="no img" width="100%" height="300px"> 
+    </div> 
+    <div class="carousel-item"> 
+     <img src="./images/p-2.jpg" alt="no img" width="100%" height="300px"> 
+    </div> 
+    <div class="carousel-item"> 
+     <img src="./images/p-3.jpg" alt="no img" width="100%" height="300px"> 
+    </div> 
+    <div class="carousel-item"> 
+    <img src="./images/p-4.jpg" alt="no img" width="100%" height="300px"> 
+    </div>
+     <div class="carousel-item"> 
+     <img src="./images/p-5.jpg" alt="no img" width="100%" height="300px"> 
+     </div>
+      <div class="carousel-item"> 
+      <img src="./images/p-6.jpg" alt="no img" width="100%" height="300px"> 
+      </div> 
+   </div> <!-- prev and next --> <a href="#demo" class="carousel-control-prev" data-slide="prev"> 
+   <span class="carousel-control-prev-icon"></span> </a> 
+   <a href="#demo" class="carousel-control-next" data-slide="next"> <span class="carousel-control-next-icon"></span> </a> 
+  </div> 
+ </div>
+</section>
+<section class="speciality" id="speciality">
+<h1 class="heading">Our<span>Speciality</span></h1>
+<h1>Burgers</h1>
+<div class="card">
+<div class="card-header">Avocado Chicken Burger</div>
+<div class="card-title"><img src="./images/Avocadochickenburger.jpg" alt="" width="100%" height="300px"></div>
+<div class="card-text">Price - ₹150</div>
+<a href="" class="btn btn-info">OrderNow </a>
+</div>
+<div class="card-footer"></div>
+</div>
+<div class="card">
+<div class="card-header">Boom Burger</div>
+<div class="card-title"><img src="./images/Boomburger.jpg" alt="" width="100%" height="300px"></div>
+<div class="card-text">Price - ₹120</div>
+<a href="" class="btn btn-info">Order Now</a>
+</div>
+<div class="card-footer"></div>
+</div>
+<div class="card">
+<div class="card-header">Double Cheese Burger</div>
+<div class="card-title"><img src="./images/Doublecheeseburger.jpg" alt="" width="100%" height="300px"></div>
+<div class="card-text">Price - ₹120</div>
+<a href="" class="btn btn-info">Order Now</a>
+</div>
+<div class="card-footer"></div>
+</div>
+<h1>Pizzas</h1>
+<div class="card">
+<div class="card-header">Cheesy Chiken Pizza</div>
+<div class="card-title"><img src="./images/Cheesychickenpizza.jpg" alt="" width="100%" height="300px"></div>
+<div class="card-text">Price - ₹120</div>
+<a href="" class="btn btn-info">Order Now</a>
+</div>
+<div class="card-footer"></div>
+</div>
+<div class="card">
+<div class="card-header">Vegan Cheese Pizza</div>
+<div class="card-title"><img src="./images/Vegancheesepizza.jpg" alt="" width="100%" height="300px"></div>
+<div class="card-text">Price - ₹130</div>
+<a href="" class="btn btn-info">Order Now</a>
+</div>
+<div class="card-footer"></div>
+</div>
+<div class="card">
+<div class="card-header">Veg Pizza</div>
+<div class="card-title"><img src="./images/Vegpizza.jpg" alt="" width="100%" height="300px"></div>
+<div class="card-text">Price - ₹140</div>
+<a href="" class="btn btn-info">Order Now </a>
+</div>
+<div class="card-footer"></div>
+</div>
+<div class="card">
+<h1>Cool Ice-Creams</h1>
+<div class="card-header">Blue Berry Ice-Cream</div>
+<div class="card-title"><img src="./images/Blueberry icecream.jpg" alt="" width="100%" height="300px"></div>
+<div class="card-text">Price - ₹80</div>
+<a href="" class="btn btn-info">Order Now </a>
+</div>
+<div class="card-footer"></div>
+</div>
+<div class="card">
+<div class="card-header">Choclate Ice-Cream</div>
+<div class="card-title"><img src="./images/Choclate icecream.jpg" alt="" width="100%" height="300px"></div>
+<div class="card-text">Price - ₹100</div>
+<a href="" class="btn btn-info">Order Now </a>
+</div>
+<div class="card-footer"></div>
+</div>
+<div class="card">
+<div class="card-header">Cookie and Creame Ice-Cream</div>
+<div class="card-title"><img src="./images/Cookieandcream icecream.jpg" alt="" width="100%" height="300px"></div>
+<div class="card-text">Price - ₹140</div>
+<a href="" class="btn btn-info">Order Now </a>
+</div>
+<div class="card-footer"></div>
+</div>
+<h1>Healthy Breakfast</h1>
+<div class="card">
+<div class="card-header">Idly</div>
+<div class="card-title"><img src="./images/Idly.jpg" alt="" width="100%" height="300px"></div>
+<div class="card-text">Price - ₹40</div>
+<a href="" class="btn btn-info">Order Now </a>
+</div>
+<div class="card-footer"></div>
+</div>
+<div class="card">
+<div class="card-header">Dosa</div>
+<div class="card-title"><img src="./images/Dosa.jpg" alt="" width="100%" height="300px"></div>
+<div class="card-text">Price - ₹30</div>
+<a href="" class="btn btn-info">Order Now </a>
+</div>
+<div class="card-footer"></div>
+</div>
+<div class="card">
+<div class="card-header">Aalu Parota</div>
+<div class="card-title"><img src="./images/Aaluparota.jpg" alt="" width="100%" height="300px"></div>
+<div class="card-text">Price - ₹30</div>
+<a href="" class="btn btn-info">Order Now </a>
+</div>
+<div class="card-footer"></div>
+</div>
+<h1>Tasty Sweets</h1>
+<div class="card">
+<div class="card-header">Milk Made Sweets</div>
+<div class="card-title"><img src="./images/Sweets-1.jpg" alt="" width="100%" height="300px"></div>
+<div class="card-text">Price - ₹250</div>
+<a href="" class="btn btn-info">Order Now </a>
+</div>
+<div class="card-footer"></div>
+</div>
+<div class="card">
+<div class="card-header">Laddos and Burfi</div>
+<div class="card-title"><img src="./images/Sweets-2.jpg" alt="" width="100%" height="300px"></div>
+<div class="card-text">Price - ₹250</div>
+<a href="" class="btn btn-info">Order Now </a>
+</div>
+<div class="card-footer"></div>
+</div>
+<div class="card">
+<div class="card-header">All type Sweets</div>
+<div class="card-title"><img src="./images/Sweets-3.jpg" alt="" width="100%" height="300px"></div>
+<div class="card-text">Price - ₹300</div>
+<a href="" class="btn btn-info">Order Now </a>
+</div>
+<div class="card-footer"></div>
+</div>
+
+</section>
+<section class="popular" id="popular">
+<h1 class="heading">Most<span>Popular</span>Foods</h1>
+<div class="box-container">
+<div class="box">
+<span class="price">₹50 - ₹200</span>
+<img src="./images/p-1.jpg" alt="">
+<h3>Tasty burger</h3>
+
+<a href="#" class="btn"> Order now</a>
+</div>
+<div class="box">
+<span class="price">₹80 - ₹500</span>
+<img src="./images/p-2.jpg" alt="">
+<h3>Tasty Cakes</h3>
+
+<a href="#" class="btn"> Order now</a>
+</div>
+<div class="box">
+<span class="price">₹50 - ₹500</span>
+<img src="./images/p-3.jpg" alt="">
+<h3>Tasty Sweets</h3>
+
+<a href="#" class="btn"> Order now</a>
+</div>
+<div class="box">
+<span class="price">₹50 - ₹100</span>
+<img src="./images/p-4.jpg" alt="">
+<h3>Tasty Cup Cakes</h3>
+
+<a href="#" class="btn"> Order now</a>
+</div>
+<div class="box">
+<span class="price">₹50 - ₹200</span>
+<img src="./images/p-5.jpg" alt="">
+<h3>Cool Drinks</h3>
+
+<a href="#" class="btn"> Order now</a>
+</div>
+<div class="box">
+<span class="price">₹50 - ₹500</span>
+<img src="./images/p-6.jpg" alt="">
+<h3>Ice-creames</h3>
+
+<a href="#" class="btn"> Order now</a>
+</div>
+</div>
+</section>
+<section class="steps">
+<div class="box"> 
+<img src="./images/step-1.jpg" alt="">
+<h3>Choose your favorite food</h3>
+</div>
+<div class="box"> 
+<img src="./images/step-2.jpg" alt="">
+<h3>Free and fast delevery</h3>
+</div>
+<div class="box"> 
+<img src="./images/step-3.jpg" alt="">
+<h3>Easy payment</h3>
+</div>
+<div class="box"> 
+<img src="/images/step-4.jpg" alt="">
+<h3>Enjoy your food </h3>
+</div>
+</section>
+<section class="Gallery" id="gallery">
+<h1 class="heading"> Our food <span>Gallery</span></h1>
+<div class="box-container">
+<div class="box">
+<img src="./images/g-1.jpg" alt="">
+<div class="content">
+<h3>Burgers</h3>
+<a href="#" class="btn">Order now</a>
+</div>
+</div>
+<div class="box">
+<img src="./images/g-2.jpg" alt="">
+<div class="content">
+<h3>Sandwitches</h3>
+<a href="#" class="btn">Order now</a>
+</div>
+</div>
+<div class="box">
+<img src="./images/g-3.jpg" alt="">
+<div class="content">
+<h3>Rolls</h3>
+<a href="#" class="btn">Order now</a>
+</div>
+</div>
+<div class="box">
+<img src="./images/g-4.jpg" alt="">
+<div class="content">
+<h3>Cupcakes</h3>
+<a href="#" class="btn">Order now</a>
+</div>
+</div>
+<div class="box">
+<img src="./images/g-5.jpg" alt="">
+<div class="content">
+<h3>Milk Made items</h3>
+<a href="#" class="btn">Order now</a>
+</div>
+</div>
+<div class="box">
+<img src="./images/g-6.jpg" alt="">
+<div class="content">
+<h3>Non-veg items</h3>
+<p></p>
+<a href="#" class="btn">Order now</a>
+</div>
+</div>
+<div class="box">
+<img src="./images/g-7.jpg" alt="">
+<div class="content">
+<h3>Breakfast items</h3>
+<a href="#" class="btn">Order now</a>
+</div>
+</div>
+<div class="box">
+<img src="./images/g-8.jpg" alt="">
+<div class="content">
+<h3>Chocolates</h3>
+<a href="#" class="btn">Order now</a>
+</div>
+</div>
+<div class="box">
+<img src="./images/g-9.jpg" alt="">
+<div class="content">
+<h3>Cakes</h3>
+<a href="#" class="btn">Order now</a>
+</div>
+</div>
+</div>
+</section>
+<section class="review" id="review">
+<h1 class="heafing"> Our customers <span>reviews</span></h1>
+<div class="box-container">
+<div clqss="box">
+<img src="./images/pic1.png" alt="">
+<h3>Rosie</h3>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac euismod mauris. Maecenas ullamcorper aliquam hendrerit. Donec lacus dui, convallis ut nisi ut, sagittis gravida velit. Donec placerat augue ut vehicula iaculis. Curabitur a dolor nec libero mattis rutrum. Nullam eget felis at enim pretium tempor. Duis lobortis vitae ipsum vel semper.n0</p>
+</div
+</div>
+<div clqss="box">
+<img src="./images/pic2.png" alt="">
+<h3>JohnDeo</h3>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac euismod mauris. Maecenas ullamcorper aliquam hendrerit. Donec lacus dui, convallis ut nisi ut, sagittis gravida velit. Donec placerat augue ut vehicula iaculis. Curabitur a dolor nec libero mattis rutrum. Nullam eget felis at enim pretium tempor. Duis lobortis vitae ipsum vel semper.</p>
+</div
+</div>
+<div clqss="box">
+<img src="./images/pic3.png" alt="">
+<h3>Marie</h3>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac euismod mauris. Maecenas ullamcorper aliquam hendrerit. Donec lacus dui, convallis ut nisi ut, sagittis gravida velit. Donec placerat augue ut vehicula iaculis. Curabitur a dolor nec libero mattis rutrum. Nullam eget felis at enim pretium tempor. Duis lobortis vitae ipsum vel semper.</p>
+</div
+</div>
+</div>
+</section>
+<section class="order" id="order">
+<h1 class="heading"><span>Order</span>Now</h1>
+<div class="row">
+<div class="image">
+<img src="./images/order-img.jpg" alt="">
+</div>
+<form action="">
+<div class="inputBox">
+<input type="text" placeholder="name">
+<input type="email" placeholder="email">
+</div>
+<div class="inputBox">
+<input type="number" Placeholder="number">
+<input type="text" placeholder="foodname">
+</div>
+<textarea placeholder="address" name="" id="" cols="30" rows="10"></textarea>
+<input type="submit" value="order now" class="btn">
+</form>
+</div>
+</section>
+</header>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css'>
+
+<div class="global">
+  <div class="curve"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-3">
+        <h6>The Logo</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+
+      <div class="col-sm-6 col-md-2">
+          <h6>Services</h6>
+          <ul>
+            <li><a href="#">Email Marketing</a> </li>
+            <li><a href="#">Campaigns</a> </li>
+            <li><a href="#">Branding</a> </li>
+            <li><a href="#">Offline</a> </li>
+            </ul>
+            </div>
+            
+            <div class="col-sm-6 col-md-2">
+            <h6>About</h6>
+            <ul>
+            <li><a href="#">Our Story</a> </li>
+            <li><a href="#">Benefits</a> </li>
+            <li><a href="#">Team</a> </li>
+            <li><a href="#">Careers</a> </li>
+            </ul>
+            </div>
+            <div class="col-sm-6 col-md-2">
+            <h6>Legal</h6>
+            <ul>
+            <li><a href="#">Terms & Conditions</a> </li>
+            <li><a href="#">Privacy Policy</a> </li>
+            <li><a href="#">Terms of use</a> </li>
+            </ul>
+            </div>
+            
+            <div class="social">
+            <h6>Follow us</h6>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-snapchat-ghost"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-google-plus"></i></a>
+            </div>
+
+
+  <section class="credit">
+    created by Veena|| all rights reserved 
+  </section>
+</body>
+</html>
